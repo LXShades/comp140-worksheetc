@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="01.pong.cpp" />
+    <ClCompile Include="Pong\Ball.cpp" />
+    <ClCompile Include="Pong\bitmap.cpp" />
+    <ClCompile Include="Pong\DebugPrinter.cpp" />
+    <ClCompile Include="Pong\Object.cpp" />
+    <ClCompile Include="Pong\Player.cpp" />
+    <ClCompile Include="Pong\Pong.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="3rdParty\serial\src\serial.cc">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\serial\src\impl\win.cc">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\serial\src\impl\list_ports\list_ports_win.cc">
+      <Filter>Serial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pong\Ball.h" />
+    <ClInclude Include="Pong\bitmap.h" />
+    <ClInclude Include="Pong\DebugPrinter.h" />
+    <ClInclude Include="Pong\Object.h" />
+    <ClInclude Include="Pong\Player.h" />
+    <ClInclude Include="Pong\Pong.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Serial">
+      <UniqueIdentifier>{b237317d-dc44-4979-acfe-e56155501b43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

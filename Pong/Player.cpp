@@ -2,7 +2,6 @@
 #include <assert.h>
 #include <windows.h>
 
-
 void Player::init()
 {
 	w = 10;
