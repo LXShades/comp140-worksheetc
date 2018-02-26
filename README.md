@@ -9,3 +9,6 @@ GitHub link: https://github.com/LXShades/comp140-worksheetc
 * When both lights start blinking, your paddle is in the right place.  
 * When a player wins, the current scores are indicated by the LEDs on your side.  
 * After three points, the winning side blinks in a celebratory disco fashion and the game is reset.  
+
+## Arduino Board
+![Design](http://github.com/LXShades/comp140-worksheetC/blob/master/Photo.jpg)
