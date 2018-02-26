@@ -23,8 +23,7 @@
     <ClCompile Include="3rdParty\serial\src\impl\list_ports\list_ports_win.cc" />
     <ClCompile Include="3rdParty\serial\src\impl\win.cc" />
     <ClCompile Include="3rdParty\serial\src\serial.cc" />
-    <ClCompile Include="AdruinoController.cpp" />
-    <ClCompile Include="ArduinoController.cpp" />
+    <ClCompile Include="Pong\ArduinoController.cpp" />
     <ClCompile Include="Pong\Ball.cpp" />
     <ClCompile Include="Pong\bitmap.cpp" />
     <ClCompile Include="Pong\DebugPrinter.cpp" />
@@ -34,7 +33,7 @@
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArduinoController.h" />
+    <ClInclude Include="Pong\ArduinoController.h" />
     <ClInclude Include="Pong\Ball.h" />
     <ClInclude Include="Pong\bitmap.h" />
     <ClInclude Include="Pong\DebugPrinter.h" />

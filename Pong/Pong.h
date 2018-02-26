@@ -3,6 +3,7 @@
 #include "Ball.h"
 #include "Player.h"
 #include "DebugPrinter.h"
+#include "ArduinoController.h"
 
 class Pong
 {
@@ -20,5 +21,5 @@ class Pong
 		bool Shutdown();
 
 		DebugPrinter* debugPrinter;
-
+		ArduinoController controller;
 	};

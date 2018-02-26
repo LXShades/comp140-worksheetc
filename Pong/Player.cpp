@@ -2,6 +2,8 @@
 #include <assert.h>
 #include <windows.h>
 
+#include "ArduinoController.h"
+
 void Player::init()
 {
 	w = 10;
@@ -16,7 +18,9 @@ void Player::init()
 void Player::Move()
 {
 	assert(mySide != Side_Undefined);
+	assert(controller != nullptr);
 
+#ifdef REGULAR_BORING_KEYBOARD_CONTROLS
 	float delta = 0;
 
 	if(mySide == Side_Left)
@@ -49,6 +53,16 @@ void Player::Move()
 	{
 		posY += delta;
 	}
+#endif
+
+	if (mySide == Side_Left)
+	{
+		posY = KnobToY(controller->GetLeftKnob());
+	}
+	else
+	{
+		posY = KnobToY(controller->GetRightKnob());
+	}
 }
 
 void Player::SetSide(Side eSide)
@@ -64,4 +78,9 @@ void Player::SetSide(Side eSide)
 	{
 		posX = 760;
 	}
+}
+
+void Player::SetController(const ArduinoController* controller_)
+{
+	this->controller = controller_;
 }

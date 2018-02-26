@@ -9,7 +9,33 @@ public:
 	void virtual Render(SDL_Renderer* renderer);
 
 	bool virtual IsColliding(const Object& o);
-protected:
+
+	inline float GetX() const;
+	inline float GetY() const;
+
+	inline float GetW() const;
+	inline float GetH() const;
+public:
 	float posX,posY;
 	float w,h;
 };
+
+inline float Object::GetX() const
+{
+	return posX;
+}
+
+inline float Object::GetY() const
+{
+	return posY;
+}
+
+inline float Object::GetW() const
+{
+	return w;
+}
+
+inline float Object::GetH() const
+{
+	return h;
+}

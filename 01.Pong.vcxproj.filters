@@ -18,6 +18,7 @@
     <ClCompile Include="3rdParty\serial\src\impl\list_ports\list_ports_win.cc">
       <Filter>Serial</Filter>
     </ClCompile>
+    <ClCompile Include="Pong\ArduinoController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pong\Ball.h" />
@@ -27,6 +28,7 @@
     <ClInclude Include="Pong\Player.h" />
     <ClInclude Include="Pong\Pong.h" />
     <ClInclude Include="Timer.h" />
+    <ClInclude Include="Pong\ArduinoController.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Serial">
