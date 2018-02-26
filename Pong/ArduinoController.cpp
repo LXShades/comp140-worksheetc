@@ -82,7 +82,7 @@ void ArduinoController::UpdateIn()
 		Line = AreYouCerealBro->readline();
 
 		size_t MiddlePoint = Line.find("-", 0);
-		printf(Line.c_str());
+		//printf(Line.c_str());
 
 		if (!MiddlePoint)
 		{
