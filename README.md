@@ -11,4 +11,4 @@ GitHub link: https://github.com/LXShades/comp140-worksheetc
 * After three points, the winning side blinks in a celebratory disco fashion and the game is reset.  
 
 ## Arduino Board
-![Design](http://github.com/LXShades/comp140-worksheetC/blob/master/Photo.jpg)
+![Design](https://raw.githubusercontent.com/LXShades/comp140-worksheetC/master/ArduinoLayout.jpg)
